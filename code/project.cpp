@@ -12,6 +12,7 @@ void project() {
 	tempTrender t(pathToFile); //Instantiate your analysis object
 	
 	t.tempOnDay(10, 10);
+	t.MeanTempAndTempOnDate(1951,2,2);
 	
 }
 
